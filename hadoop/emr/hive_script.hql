@@ -6,7 +6,7 @@ tradedate String,
 openprice int,
 highprice int,
 lowprice float,
-closeprice float,
+closeprice int,
 volume bigint)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LOCATION 's3://nyseitversity/input/raw_data/NYSE_2009';
