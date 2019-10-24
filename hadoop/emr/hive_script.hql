@@ -1,10 +1,10 @@
 dfs -cp s3://nyseitversity/input/raw_data /user/hadoop/raw_data;
 
 create external table nyse_2009_s3
-(stockticker string,
-tradedate string,
-openprice float,
-highprice float,
+(stockticker int,
+tradedate int,
+openprice int,
+highprice int,
 lowprice float,
 closeprice float,
 volume bigint)
